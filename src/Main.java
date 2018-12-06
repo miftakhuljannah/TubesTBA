@@ -270,53 +270,6 @@ public class Main {
         } else {
             System.out.println("Tidak Benar " + list);
         }
-        if (list.size() == 2) {
-            if (list.get(0) == 'S') {
-                if (list.get(1) == 'P') {
-                    System.out.println("Benar " + list);
-                } else {
-                    System.out.println("Tidak Benar " + list);
-                }
-            } else {
-                System.out.println("Tidak Benar " + list);
-            }
-        } else if (list.size() == 3) {
-            if (list.get(0) == 'S') {
-                if (list.get(1) == 'P') {
-                    if (list.get(2) == 'O') {
-                        System.out.println("Benar " + list);
-                    } else if (list.get(2) == 'K') {
-                        System.out.println("Benar " + list);
-                    } else {
-                        System.out.println("Tidak Benar " + list);
-                    }
-                } else {
-                    System.out.println("Tidak Benar " + list);
-                }
-            } else {
-                System.out.println("Tidak Benar " + list);
-            }
-        } else if (list.size() == 4) {
-            if (list.get(0) == 'S') {
-                if (list.get(1) == 'P') {
-                    if (list.get(2) == 'O') {
-                        if (list.get(3) == 'K') {
-                            System.out.println("Benar " + list);
-                        } else {
-                            System.out.println("Tidak Benar" + list);
-                        }
-                    } else {
-                        System.out.println("Tidak Benar" + list);
-                    }
-                } else {
-                    System.out.println("Tidak Benar " + list);
-                }
-            } else {
-                System.out.println("Tidak Benar" + list);
-            }
-        } else {
-            System.out.println("Tidak Benar " + list);
-        }
     }
 }
 
